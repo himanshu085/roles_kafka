@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: localhost
   become: true
   roles:
-    - /home/himanshu-parashar/demo/kafka-zookeeper
+    - /home/ubuntu/roles_kafka/kafka-zookeeper
