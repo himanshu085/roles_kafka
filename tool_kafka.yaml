@@ -1,0 +1,6 @@
+---
+- name: Setup kafka
+  hosts: aws_ec2
+  become: true
+  roles:
+    - role: kafka-zookeeper
