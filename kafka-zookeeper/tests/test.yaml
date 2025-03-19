@@ -1,5 +1,5 @@
 ---
-- hosts: aws_ec2
+- hosts: localhost
   become: true
   roles:
     - /home/ubuntu/roles_kafka/kafka-zookeeper
